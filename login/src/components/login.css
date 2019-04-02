@@ -1,0 +1,74 @@
+.caja{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:450px;
+    padding: 50px;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.caja .inputcaja{
+    position: relative;
+    text-shadow: #fff;
+    color: white;
+    
+}
+
+.caja .inputcaja input{
+    width: 95%;
+    padding: 3px 0;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    text-decoration: #03a9f4;
+    text-align: center; 
+}
+.caja .inputcaja label{
+    position:fixed;
+    top: 50;
+    left:20;
+    padding: 10px;
+    font-size:10px;
+    color:#000;
+    pointer-events: 2.5s; 
+       box-shadow: 0 15px 25px rgba(0,0,0,.1);
+       border-radius: 50px;
+    
+}
+.caja .inputcaja input:focus ~ label,
+.caja .inputcaja input:valid ~ label{
+    top:-18;
+    left:0;
+     background: transparent;
+    font-size: 13px;
+}
+.caja input[type="button"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding:10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(-1,3,1,2.5);
+    margin-left: 40%;
+}
+/*
+p{
+    font: normal 48px "Roboto", Helvetica, sans-serif;
+}
+*/
+button:hover{
+background: rgb(0,0,0,0.1);
+text-transform: uppercase;
+}
